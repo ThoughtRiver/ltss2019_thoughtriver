@@ -15,6 +15,7 @@
 ---
 
 ## What's old?
+
 @snap[midpoint span-60]
 ![Belew (1987)](assets/img/belew_1987_title.png)
 @snapend
