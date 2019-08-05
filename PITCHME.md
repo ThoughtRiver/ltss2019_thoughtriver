@@ -24,7 +24,7 @@
 @snapend
 
 @snap[south doclink span-90]
-A Connectionist Approach to Conceptual Information Retrieval, R. K. Belew, ICAIL (1987)
+@size[2em](A Connectionist Approach to Conceptual Information Retrieval, R. K. Belew, ICAIL (1987))
 @snapend
 
 ---
