@@ -20,7 +20,7 @@
 @snapend
 
 @snap[midpoint span-60]
-![nyt_1958](assets/img/nyt_1958.png)
+![NYT (1958)](assets/img/nyt_1958.png)
 @snapend
 
 @snap[south doclink span-90]
