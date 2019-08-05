@@ -16,6 +16,20 @@
 
 
 @snap[north span-60]
+## What's old? - Neural Networks
+@snapend
+
+@snap[midpoint span-60]
+![nyt_1958](assets/img/nyt_1958.png)
+@snapend
+
+@snap[south doclink span-90]
+@size[small]((1958) 'New Navy Device Learns By Doing', New York Times, 8 July, p.25)
+@snapend
+
+---
+
+@snap[north span-60]
 ## What's old?
 @snapend
 
@@ -24,12 +38,22 @@
 @snapend
 
 @snap[south doclink span-90]
-@size[small](A Connectionist Approach to Conceptual Information Retrieval, R. K. Belew, ICAIL, 1987)
+@size[small](Belew, R. K. (1987) 'A Connectionist Approach to Conceptual Information Retrieval', ICAIL)
 @snapend
 
 ---
 
+@snap[north span-60]
+## Promises, promises!
+@snapend
+
+@snap[midpoint span-60]
 ![Gartner (2018)](assets/img/gartner_hype_cycle.png)
+@snapend
+
+@snap[south doclink span-90]
+@size[small](Gartner, 2018 [Gartner](https://www.gartner.com/smarterwithgartner/5-trends-emerge-in-gartner-hype-cycle-for-emerging-technologies-2018))
+@snapend
 
 ---
 
