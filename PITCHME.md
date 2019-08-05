@@ -15,8 +15,9 @@
 ---
 
 ## What's old?
-
+@snap[midpoint span-60]
 ![Belew (1987)](assets/img/belew_1987_title.png)
+@snapend
 
 @snap[south doclink span-90]
 A Connectionist Approach to Conceptual Information Retrieval, R. K. Belew, ICAIL (1987)
