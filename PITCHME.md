@@ -1,10 +1,10 @@
-# Machine Learning In Legal Tech - What's new?
+## Machine Learning In Legal Tech - What's new?
 
-## Daniel Roythorne, ThoughtRiver Ltd.
+### Daniel Roythorne, ThoughtRiver Ltd.
 
 ---
 
-# Outline
+## Outline
 
 - What's old? - Where do the ideas and technologies behind today's legal tech AI originate?
 - What's new? - Why the recent hype around AI in legal tech could be well founded. 
@@ -14,12 +14,17 @@
 
 ---
 
-# What's old?
+## What's old?
 
 ![Belew (1987)](assets/img/belew_1987_title.png)
 
 ---
 
-# Why now?
+![Gartner (2018)](assets/img/gartner_hype_cycle.png)
+
+---
+
+## Why now?
+
 
 
