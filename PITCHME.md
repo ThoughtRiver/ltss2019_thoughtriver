@@ -24,13 +24,13 @@
 @snapend
 
 @snap[south doclink span-90]
-@size[small]((1958) 'New Navy Device Learns By Doing', New York Times, 8 July, p.25)
+@size[small]((1958&#41; 'New Navy Device Learns By Doing', New York Times, 8 July, p.25)
 @snapend
 
 ---
 
 @snap[north span-60]
-## What's old?
+## What's old? - Neural Networks in Law
 @snapend
 
 @snap[midpoint span-60]
@@ -38,7 +38,7 @@
 @snapend
 
 @snap[south doclink span-90]
-@size[small](Belew, R. K. (1987) 'A Connectionist Approach to Conceptual Information Retrieval', ICAIL)
+@size[small](Belew, R. K. (1987&#41; 'A Connectionist Approach to Conceptual Information Retrieval', ICAIL)
 @snapend
 
 ---
@@ -52,7 +52,7 @@
 @snapend
 
 @snap[south doclink span-90]
-@size[small](Gartner, 2018 [Gartner](https://www.gartner.com/smarterwithgartner/5-trends-emerge-in-gartner-hype-cycle-for-emerging-technologies-2018))
+@size[small](Gartner 2018, '5 Trends Emerge in the Gartner Hype Cycle for Emerging Technologies, 2018', viewed 5 August 2019, <https://www.gartner.com/smarterwithgartner/5-trends-emerge-in-gartner-hype-cycle-for-emerging-technologies-2018>)
 @snapend
 
 ---
