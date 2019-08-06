@@ -3,9 +3,11 @@
 ### Daniel Roythorne, ThoughtRiver Ltd.
 
 ---
-
+@snap[north]
 ## Outline
-@snap[midpoint text-2]
+@snapend
+
+@snap[midpoint text-02]
 - What's old? - Where do the ideas and technologies behind today's legal tech AI originate?
 - What's new? - Why the recent hype around AI in legal tech could be well founded. 
 - How does it work in theory? - An open-top-bus tour of modern machine learning (ML) techniques by example.
