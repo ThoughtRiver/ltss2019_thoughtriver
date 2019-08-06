@@ -5,13 +5,13 @@
 ---
 
 ## Outline
-
+@snap[midpoint text-2]
 - What's old? - Where do the ideas and technologies behind today's legal tech AI originate?
 - What's new? - Why the recent hype around AI in legal tech could be well founded. 
 - How does it work in theory? - An open-top-bus tour of modern machine learning (ML) techniques by example.
 - What about in practice? - Engineering and integration.
 - What are the limits?
-
+@snapend
 ---
 
 
