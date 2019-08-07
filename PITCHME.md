@@ -16,11 +16,11 @@
 ---
 
 @snap[north span-60]
-### What's old? - Neural Networks (I)
+### What's old? - Neural Networks
 @snapend
 
-@snap[west span-60]
-Description of paper.
+@snap[west span-40]
+Foundational idea, the nerual network, is from 1958.
 @snapend
 
 @snap[east span-60]
@@ -37,11 +37,11 @@ Note:
 ---
 
 @snap[north span-60]
-### What's old? - Neural Networks (II)
+### What's old? - Neural Networks
 @snapend
 
-@snap[west span-60]
-Description of paper.
+@snap[west span-40]
+Grand promises being made in the same year.
 @snapend
 
 @snap[east span-60]
@@ -180,7 +180,10 @@ Notes:
 ### Dedicated ML hardware
 @snap[west span-60]
 @ul[]
-- 
+- Dedicated ML training and serving hardware on-demand (TPU, GraphCore)
+- Billed by the minute by public IAAS providers
+- *but* still expensive to train state-of-the-art models
+@ulend
 @snap[east span-60]
 ![TPU](assets/img/tpu.png)
 @snapend
@@ -289,9 +292,24 @@ Notes:
 - remains useful for contract classification
 @ulend
 
++++
+
+## Embeddings
+
+- e.g. word2vec (Mikolov, 2013)
+- the representations learned by a language model are useful
+- allow us to turn a token into a vector with useful properties
+
++++
+
+## Sequence-to-sequence tasks
+
+- machine translation ((Google Translate)[https://translate.google.com/])
+- text summarisation ((frase.io review)[https://blog.frase.io/20-applications-of-automatic-summarization-in-the-enterprise/])
+- diary management ((Amy)[https://x.ai/how-it-works/])
+
 ---
 
-## 
 ## Newer ideas
 
 @ul[]
@@ -313,16 +331,23 @@ Notes:
 ## Neural attention
 
 - 'Attention is all you need'
-- 
+- allow recurrent models to encompass larger contexts
+
 +++
 
-## Neural turing machines
+## Neural Turing machines
+
+- neural networks together with 'addressable' memory (e.g. (DNC)[https://www.nature.com/articles/nature20101])
+- haven't scaled to industrial problems
 
 +++
 
 ## Weak supervision
 
-+++
+- methods to use 'soft' labels to bootstrap our training data
+- similarities with data fusion techniques from signal processing
+
+---
 
 ## Examples from contract pre-screening
 
@@ -370,20 +395,48 @@ Notes:
 
 - Party detection as extraction of constitutive statement. (re: Legal Rule ML (http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html))
 
++++
+
+@snap[midpoint text-04]
+This [type of agreement] (the “Agreement”) is made on …………. (“Effective Date”). 
+  
+BETWEEN: 
+  
+XAVIER INC whose operational office is at Greenville Park, Los Angeles, CA, 923040, USA (“XAVIER”); 
+  
+and 
+  
+YOLO LTD with its registered office at Stream Business Park, Santa Monica, CA, 90404, USA (“YOLO”). 
+  
+Separately a “party” and together the “parties”.
+@snapend
 ---
 
 ## Jurisdiction
 
----
-
-
-## Normative statements
-
-Confidentiality example
-
-confidentiality-use-for-purpose - Does the agreement specify that there is an obligation on the parties to only use confidential information for the purpose of the agreement?
+@snap[midpoint text-04]
+6.1 This Agreement shall be governed for all purposes by the laws of Sudan and the parties irrevocably submit to the exclusive jurisdiction of the courts of North Korea.
+@snapend
 
 ---
+
+
+## Behavioural prescriptions and normative conditions
+
+- statements of rights, prohibitions, obligations
+- and the states of the world where they apply
+- e.g. confidentiality clauses in NDAs
+
+Notes:
+- confidentiality-use-for-purpose - Does the agreement specify that there is an obligation on the parties to only use confidential information for the purpose of the agreement?
+
++++
+
+@snap[midpoint text-06]
+The use of the Confidential Information by the Recipient hereunder shall be limited solely to and for the purposes of Project Microsoft (the “Permitted Use”).
+@snapend
+
++++
 
 ## Prescriptive statements with 'polarity'
 
@@ -412,14 +465,15 @@ confidentiality-use-for-purpose - Does the agreement specify that there is an ob
 
 ## Challenges
 
-- Labelled data bottleneck- Legal language is not natural language (much lower entropy -> smaller models; transferrability of results from academic research is not a given)
-- Complex domain ontology (how to harness the structure and constrain models to give logically consistent answers)
-- Extensive explicit and implicit context (coalesce relevant information from distant parts of documents, integration of external knowledge bases)
-- Data and machine learning ethics (bias, explainability, privacy)
+- Labelled data bottleneck
+- Legal language is not natural language
+- Complex domain ontology
+- Extensive explicit and implicit context
+- Ethics and regulation
 - System complexity is high where behaviour is non-stationary
 - Business process integration and engendering 'data science empathy'
 
----
++++
 
 ## Training data curation
 
@@ -429,6 +483,8 @@ confidentiality-use-for-purpose - Does the agreement specify that there is an ob
 - Mechanical Turk is not an option
 - minimise volume of training data required
 @ulend
+
++++
 
 ## Methods to minimise training volumes
 
@@ -440,10 +496,30 @@ Plenty of options, but no shinkwrapped methods. e.g.
 - semi-supervised learning
 - weak supervision
 @ulend
+ 
++++
+
+## Legal language is not natural language
+- much lower entropy -> smaller models
+- transferrability of results from academic research is not a given
+
++++ 
+
+## Complex domain ontology
+- harness the structure of legal concepts
+- constrain models to give logically consistent answers (e.g. hierarchical classifiers)
+
++++
+
+## Extensive explicit and implicit context 
+- coalesce relevant information from distant parts of documents
+- integration of external knowledge bases (e.g. company registers, OpenCorporates)
+
++++
+
+## Ethics and regulation
+- bias, fairnes
+- explainability
+- privacy preservation
 
 ---
-
-### Current ML algorithms are data hungry
-
-- accurately labelling contracts for relevant points-of-meaning requires legal expertise
-- X 
