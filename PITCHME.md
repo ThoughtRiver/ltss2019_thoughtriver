@@ -15,7 +15,7 @@
 
 ---
 
-@snap[north span-60]
+@snap[north span-60 text-07]
 ### What's old? - Neural Networks
 @snapend
 
@@ -36,7 +36,7 @@ Note:
 
 ---
 
-@snap[north span-60]
+@snap[north span-60 text-07]
 ### What's old? - Neural Networks
 @snapend
 
@@ -54,24 +54,24 @@ Grand promises being made in the same year.
 
 ---
 
-@snap[north span-60]
+@snap[north span-60 text-07]
 ### What's old? - Expert systems
 @snapend
 
-@snap[west text-03 span-60]
+@snap[west text-03 span-40]
 - 'capable not only of emulating the expert in the quality of decisions, but also in the ability to give reasons and justification'
 - 'bottleneck problem of artifical intelligence' (Feigenbaum, 1977)
 @snapend
 
 @snap[east span-60]
-![Michie (1985)](assets/michie_1985_flow.png)
+![Michie (1985)](assets/img/michie_1985_flow.png)
 @snapend
 
 @snap[south-east doclink span-60]
-@size[small](Michie D. (1985&#41. Current developments in artificial intelligence and expert systems. Zygon, 20(4&#41, pp.375-389.)
+@size[small](Michie D. (1985&#41;. Current developments in artificial intelligence and expert systems. Zygon, 20(4&#41;, pp.375-389.)
 @snapend
 
-Notes:
+Note:
 - Expert systems (e.g. GASOIL), complexity of getting domain input, completeness, contradictions/noise (apoplectic engineer)
 - Teaching is done by presenting a cleverly graded and sequenced series of tutorial examples. (Know-how -> Say-how -> Show-how)
 - 'Expert articulacy is not independent of complexity. ' -> requirements for inductive inference
@@ -82,20 +82,15 @@ Notes:
 
 ---
 
-@snap[north span-60]
+@snap[north span-60 text-07]
 ### What's old? - Classification algorithms
 @snapend
 
-@snap[west text-03 span-60]
-Quinlan's 'Induction of Decision Trees' paper contains many of the concepts from modern inductive ML:
-- the *training set*
-- generalisation through regularisation
-- noisy training sets
-- missing data
-
+@snap[west text-04 span-40]
+Quinlan's 'Induction of Decision Trees' paper contains many of the concepts from modern inductive ML: the *training set*, generalisation through regularisation, noisy training sets, and missing data.
 @snapend
 
-@snap[east span-60]
+@snap[east span-40]
 ![Quinlan (1986)](assets/img/quinlan_1986_tree_simple.png)
 @snapend
 
@@ -103,19 +98,21 @@ Quinlan's 'Induction of Decision Trees' paper contains many of the concepts from
 @size[small](Quinlan, J.R. (1986&#41. Induction of Decision Trees. J.R. Mach Learn, 1, pp.81-106)
 @snapend
 
-Notes:
+Note:
 - Distinction between tutorial sets and 'historical record' approaches (Donald Michie) (and ref to active learning)
 
 ---
 
 ### More old ideas
 
+@ul[]
 - Back propogation (many earlier references, but Yann LeCun in 1987)
 - Automatic differentiation (by 1976, see Griewank, Andreas (2012))
 - Long short-term memory (LSTM) (Hochreiter S. and Schmidhuber J. (1997))
 - Transfer learning reviews back in 1998 (Thrun S. and Pratt L. (1998))
+@ulend
 
-Notes:
+Note:
 
 - Le Cunn Y., 1987. "A theoretical framework for Back-Propagation", in Touretzky, D. and Hinton, G. and Sejnowski, T. (Eds), Proceedings of the 1988 Connectionist Models Summer School, 21-28, Morgan Kaufmann, CMU, Pittsburgh, Pa, 1988
 - Griewank, Andreas (2012). Who Invented the Reverse Mode of Differentiation?. Optimization Stories, Documenta Matematica, Extra Volume ISMP (2012), 389-400.)
@@ -124,13 +121,12 @@ Notes:
 
 ---
 
-@snap[north span-60]
+@snap[north span-60 text-06]
 ### What's old? - Neural Networks in Law
 @snapend
 
-@snap[west span-60]
-- Belew used neural nets for document retrieval at the first International Conference on Artificial Intelligence and Law, 1987.
-- document knowledge representation encoded in the weights of the network
+@snap[west span-40 text-05]
+Belew used neural nets for document retrieval at the first International Conference on Artificial Intelligence and Law, 1987. Document knowledge representation encoded in the weights of the network.
 @snapend
 
 @snap[east span-60]
@@ -143,16 +139,16 @@ Notes:
 
 ---
 
-@snap[north span-60]
+@snap[north span-80 text-07]
 ## 'I've heard it all before!'
 @snapend
 
-@snap[east span-60]
+@snap[midpoint span-60]
 ![Gartner (2018)](assets/img/gartner_hype_cycle.png)
 @snapend
 
-@snap[south-east doclink span-60]
-@size[small](Gartner 2018, '5 Trends Emerge in the Gartner Hype Cycle for Emerging Technologies, 2018', viewed 5 August 2019, <https://www.gartner.com/smarterwithgartner/5-trends-emerge-in-gartner-hype-cycle-for-emerging-technologies-2018>)
+@snap[south-east span-60]
+@size[small](Gartner 2018, '5 Trends Emerge in the Gartner Hype Cycle for Emerging Technologies, 2018')
 @snapend
 
 ---
@@ -162,6 +158,7 @@ Notes:
 @ul[text-05]
 - The *Gartner Hype Cycle for Emerging Technologies 2018* featured 0 technologies reaching maturity
 - ... and expectations are clustered around technologies that are > 5 years from usefulness 
+- So what are we to make of the promises being made by legal tech firms.
 @ulend
 
 ---
@@ -177,24 +174,21 @@ Notes:
 
 ---
 
+@snap[north]
 ### Dedicated ML hardware
-@snap[west span-60]
+@snapend
+
 @ul[]
 - Dedicated ML training and serving hardware on-demand (TPU, GraphCore)
 - Billed by the minute by public IAAS providers
 - *but* still expensive to train state-of-the-art models
 @ulend
-@snap[east span-60]
-![TPU](assets/img/tpu.png)
-@snapend
 
 ---
 
-## Machine learning for lawyers
+## Standard NLP courses
 
-Standard NLP courses address common themes (demonstrations at https://demo.allennlp.org):
-
-@ul[text-04]
+@ul[text-06]
 - tokenisation and segmentation
 - part-of-speech classifiers, parse-trees, dependency parsing
 - regular expressions
@@ -206,15 +200,23 @@ Standard NLP courses address common themes (demonstrations at https://demo.allen
 - sequence-to-sequence tasks with recurrent networks 
 @ulend
 
+@snap[south-east text-04]
+(demonstrations at https://demo.allennlp.org):
+@snapend
+
 +++ 
 
+@snap[north span-100 text-06]
 ## Tokenisation and segmentation
+@snapend
 
+@ul[text-06]
 - how to decompose a sequence of characters into chunks
 - and where to best splice those chunks into segments
 - thankfully, English is straightforward in this respect (whitespace is 90% of the task)
+@ulend
 
-Notes:
+Note:
 - neural end-to-end methods can work at the character level
 - the relevant chunks are application dependent
 - assumes a linear representation (legal documents better regarded as graphs)
@@ -223,11 +225,13 @@ Notes:
 
 ## Linguistic preprocessing
 
+@ul[]
 - traditional 'stacked' NLP has separate models for linguistic primatives
 - part-of-speech classifiers tag tokens with their function (verbs, nouns, determiners)
 - parse-trees (consituency parsing), dependency parsing 
+@ulend
 
-Notes:
+Note:
 - these models still used as important features
 
 +++
@@ -266,7 +270,9 @@ Notes:
 
 +++
 
+@snap[north text-06]
 ## Named entity recognition (NER)
+@snapend
 
 @ul[text-04]
 - subsequences of tokens represent meaningful 'things'
@@ -275,11 +281,9 @@ Notes:
 - [spaCy models](https://spacy.io/models#architecture) and documentation are great sources
 @ulend
 
-@snap[south]
 ![ner](assets/img/ner.png)
-@snapend
 
-Notes:
+Note:
 - https://explosion.ai/blog/parsing-english-in-python
 
 +++
@@ -296,17 +300,22 @@ Notes:
 
 ## Embeddings
 
+@ul[]
 - e.g. word2vec (Mikolov, 2013)
 - the representations learned by a language model are useful
 - allow us to turn a token into a vector with useful properties
+@ulend
 
 +++
 
 ## Sequence-to-sequence tasks
 
+
+@ul[]
 - machine translation ((Google Translate)[https://translate.google.com/])
 - text summarisation ((frase.io review)[https://blog.frase.io/20-applications-of-automatic-summarization-in-the-enterprise/])
 - diary management ((Amy)[https://x.ai/how-it-works/])
+@ulend
 
 ---
 
@@ -323,35 +332,43 @@ Notes:
 
 ## Transfer learning
 
+@ul[]
 - ULMFit, BERT and ELMO
 - 'NLP's ImageNet moment'
+@ulend
 
 +++
 
 ## Neural attention
 
+@ul[]
 - 'Attention is all you need'
 - allow recurrent models to encompass larger contexts
+@ulend
 
 +++
 
 ## Neural Turing machines
 
+@ul[]
 - neural networks together with 'addressable' memory (e.g. (DNC)[https://www.nature.com/articles/nature20101])
 - haven't scaled to industrial problems
+@ulend
 
 +++
 
 ## Weak supervision
 
+@ul[]
 - methods to use 'soft' labels to bootstrap our training data
 - similarities with data fusion techniques from signal processing
+@ulend
 
 ---
 
+@snap[north span-100 text-05]
 ## Examples from contract pre-screening
-
-Consider the following quesitons that might be asked about a contract?
+@snapend
 
 @ul[]
 - Who are the parties and how are they referred to?
@@ -360,11 +377,11 @@ Consider the following quesitons that might be asked about a contract?
 - Does a purchase agreement specify a delivery date in the past?
 - Does anything look out of place?
 - When do provisions of an agreement terminate?
+- But first, the glamourous bits ...
 @ulend
 
-But first, the glamourous bits ...
 
----
++++
 
 ## Preprocessing
 
@@ -376,14 +393,15 @@ Garbage in, garbage out is still a truism.
 - .docx parsing and source document representations (rich content retention)
 - document type classification
 - language detection
-- normalisation (html tags, url encoding, hyperlinks, character decoding/encoding errors, cannonicalisation)
+- normalisation 
 @ulend
 
----
+Note:
+- html tags, url encoding, hyperlinks, character decoding/encoding errors, cannonicalisation)
 
++++
 
 ## Party detection
-
 
 @ul[]
 - What legal entities are parties to the agreement?
@@ -391,13 +409,13 @@ Garbage in, garbage out is still a truism.
 - What about references to groups, and reciprocal terms (e.g. 'the parties')
 @ulend
 
-Notes:
+Note:
 
 - Party detection as extraction of constitutive statement. (re: Legal Rule ML (http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html))
 
 +++
 
-@snap[midpoint text-04]
+@snap[midpoint text-05]
 This [type of agreement] (the “Agreement”) is made on …………. (“Effective Date”). 
   
 BETWEEN: 
@@ -410,24 +428,30 @@ YOLO LTD with its registered office at Stream Business Park, Santa Monica, CA, 9
   
 Separately a “party” and together the “parties”.
 @snapend
----
 
++++
+
+@snap[north]
 ## Jurisdiction
+@snapend
 
-@snap[midpoint text-04]
+@snap[midpoint text-05]
 6.1 This Agreement shall be governed for all purposes by the laws of Sudan and the parties irrevocably submit to the exclusive jurisdiction of the courts of North Korea.
 @snapend
 
 ---
 
-
+@snap[north span-100 text-05]
 ## Behavioural prescriptions and normative conditions
+@snapend
 
+@ul[]
 - statements of rights, prohibitions, obligations
 - and the states of the world where they apply
 - e.g. confidentiality clauses in NDAs
+@ulend
 
-Notes:
+Note:
 - confidentiality-use-for-purpose - Does the agreement specify that there is an obligation on the parties to only use confidential information for the purpose of the agreement?
 
 +++
@@ -435,12 +459,6 @@ Notes:
 @snap[midpoint text-06]
 The use of the Confidential Information by the Recipient hereunder shall be limited solely to and for the purposes of Project Microsoft (the “Permitted Use”).
 @snapend
-
-+++
-
-## Prescriptive statements with 'polarity'
-
-- We must determine toward what party certain deontic notions apply.
 
 ---
 
@@ -457,14 +475,15 @@ The use of the Confidential Information by the Recipient hereunder shall be limi
 
 ## ML deployment issues
 
-@ul[]
 - [Machine Learning: The High Interest Credit Card of Technical Debt](https://ai.google/research/pubs/pub43146)
 - [Software Engineering for Machine Learning: A Case Study](https://www.microsoft.com/en-us/research/publication/software-engineering-for-machine-learning-a-case-study/)
 - [What's your ML test score? A rubric for ML production systems](https://ai.google/research/pubs/pub45742)
-@ulend
+
++++
 
 ## Challenges
 
+@ul[]
 - Labelled data bottleneck
 - Legal language is not natural language
 - Complex domain ontology
@@ -472,6 +491,7 @@ The use of the Confidential Information by the Recipient hereunder shall be limi
 - Ethics and regulation
 - System complexity is high where behaviour is non-stationary
 - Business process integration and engendering 'data science empathy'
+@ulend
 
 +++
 
@@ -488,7 +508,7 @@ The use of the Confidential Information by the Recipient hereunder shall be limi
 
 ## Methods to minimise training volumes
 
-Plenty of options, but no shinkwrapped methods. e.g.
+Plenty of options, but no shinkwrapped solutions.
 
 @ul[]
 - transfer learning
@@ -500,26 +520,34 @@ Plenty of options, but no shinkwrapped methods. e.g.
 +++
 
 ## Legal language is not natural language
+@ul[]
 - much lower entropy -> smaller models
 - transferrability of results from academic research is not a given
+@ulend
 
 +++ 
 
 ## Complex domain ontology
+@ul[]
 - harness the structure of legal concepts
 - constrain models to give logically consistent answers (e.g. hierarchical classifiers)
+@ulend
 
 +++
 
 ## Extensive explicit and implicit context 
+@ul[]
 - coalesce relevant information from distant parts of documents
 - integration of external knowledge bases (e.g. company registers, OpenCorporates)
+@ulend
 
 +++
 
 ## Ethics and regulation
+@ul[]
 - bias, fairnes
 - explainability
 - privacy preservation
+@ulend
 
 ---
